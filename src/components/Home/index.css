@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  padding: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .bg {
+    margin-right: 600px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.a {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  font-family: 'Bree Serif';
+}
+
+.image {
+  margin-top: 25px;
+  padding-right: 10px;
+}
+
+.loader {
+  text-align: center;
+}
+
+.u {
+  display: flex;
+  flex-wrap: wrap;
+}

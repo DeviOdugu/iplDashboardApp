@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.match-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  list-style-type: none;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+.cT {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.res {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.status {
+  color: #e31a1a;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.st {
+  color: #18ed66;
+  font-size: 15px;
+  font-weight: 500;
+}

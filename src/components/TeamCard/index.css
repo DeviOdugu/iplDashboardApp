@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.card {
+  display: flex;
+  border-radius: 8px;
+  background-color: #475569;
+  list-style-type: none;
+  margin: 7px;
+  padding: 7px;
+  border: solid #ffffff 1px;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 19px;
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.team-image {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .team-image {
+    margin-top: 10px;
+  }
+}

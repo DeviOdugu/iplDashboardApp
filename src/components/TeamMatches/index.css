@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.team-card {
+  margin: 10px;
+}
+
+.rcb {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+
+.kxp {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.kkr {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+
+.csk {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+
+.srh {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+
+.rr {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+}
+
+.mi {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+
+.dc {
+  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+}
+
+.banner-url {
+  margin: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  height: 200px;
+  width: 850px;
+}
+
+@media screen and (min-width: 1000px) {
+  .team-card {
+    margin-right: 600px;
+  }
+  .banner-url {
+    height: 200px;
+    width: 730px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg {
+    width: 100vw;
+  }
+  .banner-url {
+    height: 250px;
+    width: 340px;
+  }
+}
+
+.lm {
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+}
+
+.u {
+  display: flex;
+  flex-wrap: wrap;
+}
